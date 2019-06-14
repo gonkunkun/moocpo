@@ -10,17 +10,7 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate",
-    "lint-staged": {
-      "*.js": [
-        "eslint --fix",
-        "git add"
-      ],
-      "*.css": [
-        "stylelint --fix",
-        "git add"
-      ]
-    }
+    "generate": "nuxt generate"
   },
   "dependencies": {
     "@nuxtjs/vuetify": "0.5.5",
